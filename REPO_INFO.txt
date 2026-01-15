@@ -1,0 +1,60 @@
+=================================================================
+GITHUB REPOSITORY SETUP INFORMATION
+=================================================================
+
+Repository Name:
+  agentic-commerce-toolkit
+
+Description (350 chars max):
+  Reference implementations of UCP and ACP protocols for AI-powered commerce. Includes Shopify adapter, WooCommerce plugin, and custom server examples. Educational resource - not production-ready.
+
+Owner:
+  rickardsteinwig
+
+Visibility:
+  Public
+
+License:
+  Apache License 2.0
+
+Topics/Tags (add these on GitHub):
+  - agentic-commerce
+  - ucp
+  - acp
+  - universal-commerce-protocol
+  - ai-commerce
+  - shopify
+  - woocommerce
+  - ecommerce
+  - ai-agents
+  - commerce-protocols
+  - reference-implementation
+  - educational
+
+.gitignore:
+  ✅ Already configured (see .gitignore file)
+
+README:
+  ✅ Add README checkbox ON
+  ✅ README.md already created
+
+Initialize with:
+  - [x] Add README file (already exists)
+  - [x] Add .gitignore (already exists)
+  - [x] Choose a license: Apache 2.0 (already exists)
+
+=================================================================
+IMPORTANT: Before pushing to GitHub
+=================================================================
+
+1. Review all files for sensitive data
+2. Check that .env.example files exist (not .env)
+3. Verify no API keys or secrets in code
+4. Confirm all placeholder values are used
+5. Test .gitignore is working:
+   git status
+   (should not show .env, *.db, secrets.json, etc.)
+
+=================================================================
+Ready to create repository!
+=================================================================
